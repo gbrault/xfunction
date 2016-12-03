@@ -7,7 +7,7 @@ Node-Red Nodes "function node" have quite a restrictive sandbox, I wanted to rel
 
 For example, with this relaxation and using forever [see](https://github.com/foreverjs/forever), one can restart Node-Red programatically.
 
-Used in conjunction of the functionGlobalContext in the settings.js file, one can virtually access any resources on the target computer. [See](https://nodered.org/docs/configuration) the last paragraph: Node Configuration.
+Used in conjunction of the functionGlobalContext in the settings.js file, one can virtually access any resources on the target computer from an xfunction node. [See](https://nodered.org/docs/configuration) the last paragraph: Node Configuration.
 
 ## Installation
 go on your user node-red root directory (~/.node-red)
