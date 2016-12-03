@@ -11,7 +11,7 @@ Another scenario is the capability to add routes to express in order to add some
 
 Using nrcloudcmd ([see](https://github.com/gbrault/nrcloudcmd)) one can import, modify client html and scripts. We hence have a full web-based development tool build upon Node-Red corner stone.
 
-Moreover,used in conjunction of the functionGlobalContext in the settings.js file, one can virtually access any resources on the target computer from an xfunction node. [See](https://nodered.org/docs/configuration) the last paragraph: Node Configuration.
+Moreover,used in conjunction of the functionGlobalContext in the settings.js file, one can virtually access any resources on the target computer from an xfunction node. [See](https://nodered.org/docs/configuration) the last paragraph: Node Configuration to learn how to load some 'require' objects.
 
 ## Installation
 go on your user node-red root directory (~/.node-red)
