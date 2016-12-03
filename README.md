@@ -1,6 +1,6 @@
 # xfunction
 ## Node Red xfunction: "An extended function node"
-It is a clone of the core Node-Red function node [see](https://github.com/node-red/node-red/blob/master/nodes/core/core/80-function.js) with some relaxation of the sandbox script execution context
+It is a clone of the core Node-Red function node ([see](https://github.com/node-red/node-red/blob/master/nodes/core/core/80-function.js)) with some relaxation of the sandbox script execution context
 
 ## Why do I need that?
 Node-Red Nodes "function node" have quite a restrictive sandbox, I wanted to relax it a bit to benefit from Node-Red Editor while writing nodes and flows which could have more interaction with Node-Red global context.
