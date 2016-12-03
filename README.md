@@ -5,7 +5,7 @@ It is a clone of the core Node-Red function node ([see](https://github.com/node-
 ## Why do I need that?
 Node-Red Nodes "function node" have quite a restrictive sandbox, I wanted to relax it a bit to benefit from Node-Red Editor while writing nodes and flows which could have more interaction with Node-Red global context.
 
-For example, with this relaxation and using forever [see](https://github.com/foreverjs/forever), one can restart Node-Red programatically.[See](https://gist.github.com/gbrault/e87331911a79fdc7821c54f4991259d6) to learn how to start node-red from forever.
+For example, with this relaxation and using forever ([see](https://github.com/foreverjs/forever)), one can restart Node-Red programatically.[See](https://gist.github.com/gbrault/e87331911a79fdc7821c54f4991259d6) to learn how to start node-red from forever.
 
 Used in conjunction of the functionGlobalContext in the settings.js file, one can virtually access any resources on the target computer from an xfunction node. [See](https://nodered.org/docs/configuration) the last paragraph: Node Configuration.
 
