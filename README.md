@@ -3,7 +3,7 @@
 It is a clone of the core Node-Red function node with some relaxation of the sandbox script execution context
 
 ## Why do I need that?
-Node-Red Nodes "function node" have quite a restrictive sandbox, I wanted to relax it a bit to benefit fro Node-Red Editor while writing nodes and flows which could have more interaction with Node-Red global context.
+Node-Red Nodes "function node" have quite a restrictive sandbox, I wanted to relax it a bit to benefit from Node-Red Editor while writing nodes and flows which could have more interaction with Node-Red global context.
 
 Used in conjunction of the functionGlobalContext in the settings.js file, one can virtually access any resources on the target computer. [See](https://nodered.org/docs/configuration) the last paragraph: Node Configuration.
 
