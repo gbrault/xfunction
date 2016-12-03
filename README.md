@@ -10,6 +10,6 @@ npm install https://github.com/gbrault/xfunction
 ## Usage
 Will add an xfunction node on Node-Red Editor palette
 It is a clone of the core Node-Red function node with the following extensions
-* *RED.red*: this is the RED object created at Node-Red starup as ```var RED = require("./red/red.js");```
+* **RED.red**: this is the RED object created at Node-Red starup as ```var RED = require("./red/red.js");```
 * RED.red.version() provides Node-Red version
-* 
+* **RED.fs**: Node file system handle  ```var fs = require('fs');```
