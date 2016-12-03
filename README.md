@@ -19,6 +19,8 @@ go on your user node-red root directory (~/.node-red)
 npm install https://github.com/gbrault/xfunction
 ```
 
+Use flow.json to start (import it in a new flow after installing)
+
 ## Usage
 Will add an xfunction node on Node-Red Editor palette.
 It is a clone of the core Node-Red function node with the following extensions.
