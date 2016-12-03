@@ -1,5 +1,5 @@
 # xfunction
-## Node Red sql.js "An extended function node"
+## Node Red xfunction: "An extended function node"
 
 ## Installation
 go on your user node-red root directory (~/.node-red)
