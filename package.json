@@ -1,0 +1,18 @@
+{
+  "description": "An extended function Node-RED node",
+  "keywords": [
+    "node-red",
+    "xfunction"
+  ],
+  "license": "Apache-2.0",
+  "name": "xfunction",
+  "node-red": {
+    "nodes": {
+      "xfunction": "xfunction.js"
+    }
+  },
+  "readmeFilename": "README.md",
+  "version": "0.0.0",
+  "dependencies" :
+	{}
+}
